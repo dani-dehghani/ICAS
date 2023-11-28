@@ -560,7 +560,7 @@ def initial_position_prepration(scene, initial_position_cartesian: np.ndarray, f
 
 def robot_rotation( initial_position_cartesian, final_position_cartesian):
 
-    # Calculate the vector pointing from point A to point B
+    # Calculate the movement vector
     movement_vector = final_position_cartesian - initial_position_cartesian
 
     # Calculate the normalized direction vector
