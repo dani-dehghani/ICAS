@@ -129,7 +129,7 @@ def cartesian_to_cylindrical(coordinates: List[float]) -> Optional[np.ndarray]:
 
     This function performs the following conversions:
     1. Calculates the radial distance 'r' from the origin.
-    2. Determines the angle 'theta' in the xy-plane using arctan2.
+    2. Determines the angle 'theta' in the xy-plane using arctan2 in radian.
     3. Preserves the z-coordinate as 'z_cylindrical'.
     """
     x, y, z = coordinates
